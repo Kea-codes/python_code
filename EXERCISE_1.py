@@ -1,0 +1,11 @@
+#CALCULATING THE AREA OF THE RECTANGLE
+
+#LENGTH * BREADTH
+#WE WANT INTEGERS FROM THE USER
+
+LENGTH = int(input("LENGTH OF THE REC: "))
+BREADTH = int(input("BREADTH OF THE REC: "))
+
+Area =LENGTH * BREADTH
+
+print(f"The Area of the Rec with L = {LENGTH} and B = {BREADTH} is {Area}")
