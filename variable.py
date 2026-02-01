@@ -33,4 +33,20 @@ if Temp:
     print(f"The temperature is Hot")
 else :
     print(f"The temperature is not Hot") 
+
+print()
+print("**********************")
+print()
     
+
+#CREATING THE NUMBERS GAME
+print("GUES THE NUMBER FROM 1 TO 5")
+
+user_input = int(input("CHOOSE A NUMBER: "))
+
+if user_input == 1 or user_input == 3 or user_input == 4:
+    print("YOU LOST")
+elif user_input == 2 or user_input== 5:
+    print("YOU WON")
+else :
+    print("ENTER THE CORRECT INPUT")
