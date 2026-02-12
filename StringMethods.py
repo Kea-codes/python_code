@@ -23,3 +23,7 @@ print(f"{name} IN CAPITAL LETTERS : {uppercase_name}  || SMALL LETTERS : {lowerc
 #CHECKING IF THE NAME/STRING IS DIGITS
 isdigit_name =  name.isdigit()
 print(f"IS {name} DIGITS: {isdigit_name}")
+<<<<<<< HEAD
+=======
+
+>>>>>>> 734d90c7ce6b2fad11e227364d792a6b636aa443
