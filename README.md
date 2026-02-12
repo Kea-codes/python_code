@@ -1,0 +1,11 @@
+**🐍 Python Fundamentals - Project Documentation**
+
+**Overview**
+
+This repository contains a structured collection of Python scripts covering fundamental to intermediate programming concepts through hands-on examples and practical applications, designed specifically for beginners and self-learners. The project is organized into five core modules: Basics, Math Operations, Conditionals, Strings, and Projects, each building progressively on the last.
+
+The Basics module introduces core programming concepts through variable.py (variables, data types, f-strings, and a number guessing game), TypeCasting.py (type conversion between int, float, str, and bool), and UserInput.py (console input handling with type casting). The Math Operations module covers arithmetic and augmented operators in Arithmatic&math.py, along with essential math library functions including round(), abs(), pow(), max(), min(), floor(), ceil(), sqrt(), and constants pi and e. This is reinforced through EXERCISE_1.py (rectangle area calculator) and EXERCISE_2.py (circle circumference and triangle hypotenuse).
+
+The Conditionals module covers decision-making with if_Statements.py (real-world scenarios including credit card eligibility and name validation), ConditionalExpression.py (ternary operators for concise one-line conditionals), and LogicalOperators.py (and, or, not operators with student grading and event planning examples). The Strings module provides comprehensive string manipulation through StringMethods.py (len(), find(), capitalize(), upper(), lower(), isdigit()) and StringIndexing.py (slicing syntax, negative indexing, string reversal, and practical applications like credit card number masking).
+
+The Projects module applies all learned concepts in two complete applications: BasicOperatorCalculator.py implements a fully functional four-operation calculator with input validation, while WeightConverter.py handles bidirectional conversion between kilograms and grams. All scripts are written in Python 3.6+ using only the standard math library, require no external dependencies, and can be run immediately in any Python environment. The recommended learning path progresses sequentially from Basics through to Projects, ensuring conceptual clarity while building practical, portfolio-ready applications
