@@ -21,8 +21,8 @@ fruits =[x.lower() for x in fruits]
 print(fruits) #['banana', 'apple', 'coco', 'orange']
 
 nums = [1, -2, -3 ,-4, 5, -6]
-positive_nums = [num for num in nums if num>=0]
-print(positive_nums)
+#positive_nums = [num for num in nums if num>=0]
+#print(positive_nums)
 negative_nums =[num for num in nums if num<0]
 print(negative_nums)
 

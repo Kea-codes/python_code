@@ -1,0 +1,14 @@
+#MODULE EXAMPLE
+#WE CAN CREATE OUR OWN MODULE AND IMPORT IT IN ANOTHER FILE
+
+
+import math  as m
+
+#CREATE A FUNCTION THAT SQUARES A NUMBER
+def square(x):
+    return m.pow(x,2)
+
+#CREATE A FUNCTION THAT CUBES A NUMBER
+def cube(x):
+    return m.pow(x,3)
+
