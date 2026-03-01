@@ -1,8 +1,8 @@
-def show_balance():
+def show_balance(balance):
     print(f"YOUR BALANCE IS {balance}")
 
 
-def deposit():
+def deposit(balnce):
     amount = float(input("ENTER AN AMOUNT YPU WANT TO DEPOSIT: "))
     
     if amount < 0:
@@ -11,7 +11,7 @@ def deposit():
     else:
         return amount
 
-def withdraw():
+def withdraw(balance):
     amount = float(input("ENTER AN AMOUNT TO WITHDRW: "))
     if amount > balance:
         print("YOU DO NOT HAVE THAT AMOUNT OF MONEY:")
@@ -42,15 +42,19 @@ def main():
         if choice == '1':
             show_balance(balance)
         elif choice == '2':
-            balance +=deposit(balance )
+            balance +=deposit(balance)
         elif choice == '3':
-            balance -= withdraw(balance )
+            balance -= withdraw(balance)
         elif choice == '4':
             is_running = False
         else:
             print("INVALID CHOICE")
 
+    print()
+    print("---------------------------------------")
     print("THANK YOU HAVE A NICE DAY")
+    print("---------------------------------------")
+    print()
 
 if __name__ == '__main__':
     main()
